@@ -43,6 +43,7 @@ const SignInScreen = () => {
           placeholder={"Email"}
           value={email}
           onChangeText={setEmail}
+          keyboardType={'email-address'}
         />
         {emailError && <Text style={globalStyles.errorMessage}>Неверная почта!</Text>}
       </View>
@@ -51,6 +52,7 @@ const SignInScreen = () => {
           placeholder={"Пароль"}
           value={password}
           onChangeText={setPassword}
+          secureTextEntry={true}
         />
         {passwordError && <Text style={globalStyles.errorMessage}>Неверный пароль!</Text>}
       </View>
