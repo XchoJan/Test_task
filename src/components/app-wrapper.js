@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     marginBottom: 16
   },
   header:{
-    height: 140,
+    height: 70,
     alignItems: 'center',
     width: '100%'
   }
