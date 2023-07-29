@@ -90,14 +90,17 @@ const styles = StyleSheet.create({
     left: 0,
     top: 0,
     zIndex: 1,
+    backgroundColor: 'rgba(0,0,0,0.62)'
   },
   absoluted_image: {
     width: "100%",
     height: "100%",
+    resizeMode: 'contain'
   },
   xMark: {
     fontSize: 26,
     fontWeight: "bold",
+    color: '#fff'
   },
   xMarkBox: {
     paddingHorizontal: 16,
